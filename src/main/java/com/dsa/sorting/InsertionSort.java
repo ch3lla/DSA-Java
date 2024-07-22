@@ -1,4 +1,4 @@
-package com.dsa;
+package com.dsa.sorting;
 
 import java.util.Arrays;
 import java.util.Random;
