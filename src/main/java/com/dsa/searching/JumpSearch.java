@@ -20,6 +20,7 @@ public class JumpSearch {
          * returns that value and decreases it by 1 and find its position in the array and checks if it is less
          * than the value we are searching for
          */
+        // 1, 2, 3, 4, 5, 6, ,7 ,8,9, 10, 11, 12
         while (arr[Math.min(jump, n) - 1] < valueToSearchFor) {
             prev = jump; // stores value of jump before incrementing it
             jump += (int) Math.sqrt(n); // jump is incremented by itself
